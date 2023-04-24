@@ -67,7 +67,7 @@ namespace CGScratch
         public void Main()
         {
             TriScene triScene = new TriScene("./json/models.json", "./json/instances.json", "./json/camera.json");
-            Canvas canvas = new(512, 512, 5, 5, 1);
+            Canvas canvas = new(512, 512, 1, 1, 1);
 
             Console.WriteLine("enter plot cubes...");
             triScene.RenderScene(canvas);
